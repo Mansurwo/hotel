@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  font-family: "Raleway", sans-serif;
+}
+.con1 {
+  width: 100%;
+  height: 8vh;
+  background-color: white;
+  display: flex;
+}
+.con1 a {
+  text-decoration: none;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+}
+.logo {
+  padding: 10px;
+  font-size: 20px;
+  background-color: red;
+  color: white;
+}
+.logo a {
+  color: white;
+}
+.logo:hover {
+  background-color: gray;
+  color: #000;
+}
+.room a {
+  color: #000;
+}
+.room {
+  padding: 10px;
+  font-size: 20px;
+}
+.room:hover {
+  background-color: gray;
+}
+.about a {
+  color: #000;
+}
+.about {
+  padding: 10px;
+  font-size: 20px;
+}
+.about:hover {
+  background-color: gray;
+}
+.contact a {
+  color: #000;
+}
+.contact {
+  padding: 10px;
+  font-size: 20px;
+}
+.contact:hover {
+  background-color: gray;
+}
+.book a {
+  color: #000;
+}
+.book {
+  margin-left: 134.4vh;
+  padding: 10px;
+  font-size: 20px;
+  background-color: lightgray;
+}
+.book:hover {
+  background-color: gray;
+}
+.con2 {
+  background-image: url(./image/hotel.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.cont1{
+    width: 560px;
+    height: 325px;
+    padding: 200px 30px;
+    padding-bottom: 0;
+
+}
+.cont2{
+    background-color:red;
+    padding: 10px 10px;
+}
+.cont2 h2{
+    color: white;
+    font-weight: 400;
+    font-size: 30px; 
+}
+.cont3{
+    background-color: white;
+}
+.cont4{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.date{
+    width: 260px;
+    height: 36px;
+    color: grey;
+    border-color: white;
+}
+.cont5{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.cont6{
+    margin-left: 5px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: #616161;
+    width: 200px;
+    height: 40px;
+}
+#fa{
+    padding-right: 20px;
+}
+.but:hover{
+    background-color: #CCCCCC;
+    color: black;
+}
+.con3{
+    width: 100%;
+    height: 100vh;
+    background-color: #F1F1F1;
+}
+#rconttt1{
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 15px;
+    padding-top: 25px;
+}
+#conttt2{
+    font-weight: 400;
+    font-size: 14px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.conttt3{
+    display: flex;
+    margin-top: 22px;
+    justify-content: space-around;
+}
+.conttt4{
+    margin-left: 5px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: black;
+    width: 200px;
+    height: 40px;
+}
+.conttt4:hover{
+    background-color: #CCCCCC;
+    color: black;
+}
+.photos{
+    display: flex;
+    margin: 0px 10px;
+    justify-content: space-evenly;
+}
+.first{
+    background-color: white;
+}
+.first img{
+    width: 420px;
+    height: 271px;
+}
+.first h3{
+    font-weight: 400;
+    font-size: 23px;
+    padding-left: 15px;
+    padding-top: 7px;
+}
+.second{
+    background-color: white;
+}
+.second img{
+    width: 420px;
+    height: 271px;
+}
+.second h3{
+    font-weight: 400;
+    font-size: 23px;
+    padding-left: 15px;
+    padding-top: 7px;
+}
+.third{
+    background-color: white;
+}
+.third img{
+    width: 420px;
+    height: 271px;
+}
+.third h3{
+    font-weight: 400;
+    font-size: 23px;
+    padding-left: 15px;
+    padding-top: 7px;
+}
+.price{
+    padding-left: 15px;
+    padding-top: 15px;
+    color: grey;
+    font-size: 14px;
+}
+.bed{
+    font-size: 14px;
+    padding-left: 15px;
+    padding-top: 15px;
+    font-weight: 500;
+}
+.hov{
+    font-size: 14px;
+    padding-left: 15px;
+    padding-top: 15px;
+    font-weight: 500;
+}
+.ic{
+    padding-left: 15px;
+    padding-top: 15px;
+    font-size: 14px;
+}
+#icc{
+    padding-left: 10px;
+}
+.button{
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    padding: 7px 0px;
+    width: 95%;
+    margin-left: 10px;
+}
+.con4{
+    width: 100%;
+    height: 100vh;
+    background-color: lightgray;
+    display: grid;
+    gap: 55px;
+    grid-template-columns: 30% 65%;
+    grid-template-rows: auto 60px;
+}
+.about1{
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+.is{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.card{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.card i{
+    padding: 3px;
+}
+.conta2 img{
+    width: 100%;
+}
+.item{
+    width: 1900px;
+    display: flex;
+    padding: 30px;
+    padding-left: 400px;
+}
